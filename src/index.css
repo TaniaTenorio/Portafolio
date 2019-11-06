@@ -123,3 +123,27 @@
 .footer {
     padding: 3rem 1.5rem 1rem;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .about-me div p{
+        width: 100%;
+        font-size: 16pt;
+        padding: 0 9px;
+    }
+    .hero-head {
+        height: 120px;
+    }
+    .projects-content {
+        height: 100vh;
+        overflow: auto;
+    }
+    .social-net p {
+        margin: 1rem
+      }
+    .contact-me {
+        padding: 1rem;
+    }
+    .contact-me p{
+        margin: 0;
+    }
+}
