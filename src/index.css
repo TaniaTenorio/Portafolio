@@ -5,7 +5,7 @@
     background-color:black;
 }
 .top {
-    margin-top: 10%;
+    margin-top: 3%;
 }
 .navbar {
     margin-left: 3%;
@@ -39,11 +39,25 @@
     margin-top: 4%;
     font-size: 3rem;
 }
+.about-me div {
+    margin-left: 3%
+}
 .about-me div p{
-    width: 52%;
+    width: 100%;
     font-size: 21pt;
-    text-align: justify;
-} 
+    text-align: left;
+}
+.images figure img {
+    height: 130px;
+}
+.profile {
+    height: 50vh;
+    width: 50vh;
+    margin: auto;
+}
+.photo-container {
+    padding: 0
+}
 /* .card{
     position: relative;
     transform-style: preserve-3d;

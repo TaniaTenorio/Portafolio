@@ -11,7 +11,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
-    <section id="home" class="hero is-fullheight has-background-white-ter">
+    <section id="home" class="hero is-fullheight has-background-white-ter home">
         <nav class="navbar top" role="navigation" aria-label="main navigation">
             <div  class="navbar-menu">
               <div class="navbar-start">
@@ -35,11 +35,11 @@
               </div>
             </div>
         </nav>
-            <div class="hero-body">
+            <div class="hero-body photo-container">
               <div class="container has-text-centered">
-                <h1 class="title">
-                  Aquí va mi foto
-                </h1>
+                <figure class="image profile">
+                  <img class="is-rounded" src="./assets/Me.png" alt="Photo">
+                </figure>
               </div>
             </div>
             <footer>
@@ -113,13 +113,35 @@
             </h1>
           </div>
         </div>
-        <div class="hero-body about-me">
-          <div class="container">
+        <div class="hero-body columns is-desktop about-me">
+          <div class="column container ">
             <p>
               Soy Tania, desarrolladora y apasionada de crear interfaces sencillas y novedosas. Mis principales herramientas son HTML, CSS, Java Script y ReactJS. Soy recién egresada de Laboratoria, me interesa seguir aprendiendo y busco constantemente retroalimentación que me ayude a mejorar.<br/><br/>
               Soy amante del café y los perritos bebés, procuro usar la bici todos los días y me encantan las actividades al aire libre.
               Si te gusta algún proyecto, quieres darme algún consejo o invitarme a trabajar contigo, no dudes en escribirme. <br/><a href="#contact-me">Aquí</a> me puedes contactar.
             </p>
+          </div>
+          <div class="column images">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <figure class="tile is-child">
+                  <img src="./assets/javascript.png" alt="JS-logo">
+                </figure>
+                <figure class="tile is-child">
+                    <img src="./assets/html.png" alt="HTML-logo">
+                </figure>
+              </div>
+            </div>
+              <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                  <figure class="tile is-child ">
+                      <img src="./assets/css.png" alt="CSS-logo">
+                  </figure>
+                  <figure class="tile is-child">
+                      <img src="./assets/react.png" alt="React-logo">
+                  </figure>
+                </div>
+              </div>
           </div>
         </div>
       </section>
@@ -138,7 +160,7 @@
                         </div>
                       <div class="card-content"><!--Este puede ser el lado trasero-->
                         <div class="content has-text-centered">
-                          <p class="is-size-4">Data Lovers</p>
+                          <p class="is-size-4">Pokexpert</p>
                           <a href="https://github.com/TaniaTenorio/MEX-Data-Lovers-008" target="_blank">GitHub</a> <br>
                           <a href="https://taniatenorio.github.io/MEX-Data-Lovers-008/src/" target="_blank">Demo</a>
                         </div>
@@ -174,7 +196,7 @@
                         </div>
                         <div class="card-content">
                           <div class="content has-text-centered">
-                            <p class="is-size-4">Burger Queen</p>
+                            <p class="is-size-4">Pan D'Monium App</p>
                             <a href="https://github.com/TaniaTenorio/MEX008-FE-Burger-Queen" target="_blank">GitHub</a> <br>
                             <a href="https://taniatenorio.github.io/MEX008-FE-Burger-Queen/" target="_blank">Demo</a>
                           </div>
