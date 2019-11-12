@@ -47,6 +47,7 @@
     font-size: 21pt;
     text-align: left;
 }
+
 .images figure img {
     height: 130px;
 }
@@ -144,12 +145,15 @@
         font-size: 16pt;
         padding: 0 9px;
     }
+    .images {
+        display:none
+    }
     .hero-head {
         height: 120px;
     }
     .projects-content {
-        height: 100vh;
-        overflow: auto;
+        height: fit-content;
+        
     }
     .social-net p {
         margin: 1rem
