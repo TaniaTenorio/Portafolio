@@ -1,6 +1,10 @@
 * {
     font-family: 'Rajdhani', sans-serif;
 }
+
+.flex-container {
+    display: flex;
+}
 .home-container {
     background-color:black;
 }
@@ -100,6 +104,19 @@
     height: 80%;
     padding-top: 5%;
 }
+
+.project-title { 
+    margin-bottom: 0 !important;
+}
+.project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-content {
+    padding: 0.5rem;
+}
+
 .project-tools li{
     list-style: none;;
 }
@@ -176,4 +193,5 @@
     .tile-container{
         height: 45%;
     }
+   
 }
