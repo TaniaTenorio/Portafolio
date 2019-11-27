@@ -184,6 +184,9 @@
     .contact-me p{
         margin: 0;
     }
+    .wrap-card {
+        height: 64vh;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .projects-content {
@@ -192,6 +195,9 @@
     }
     .tile-container{
         height: 45%;
+    }
+    .wrap-card {
+        height: 100vh;
     }
    
 }
