@@ -66,6 +66,9 @@
 .tile-container {
     height: 100%;
 }
+.card-image{
+    margin-bottom: 20%;
+}
 .wrap-card {
     -webkit-perspective: 800;
     perspective: 800;
@@ -106,7 +109,7 @@
 }
 
 .project-title { 
-    margin-bottom: 0 !important;
+    margin-bottom: 5% !important;
 }
 .project-description {
     display: flex;
@@ -115,6 +118,7 @@
 }
 .card-content {
     padding: 0.5rem;
+    align-items: flex-end;
 }
 
 .project-tools li{
